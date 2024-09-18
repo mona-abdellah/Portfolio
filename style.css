@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    border-bottom: solid 1px #6b37a7;
+    color:#1f0c1f;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.nav-item:hover{
+    /* color:rgb(81, 224, 224); */
+    box-shadow:0px 0px 1px 1px #00e1ff;
+}
+.base{
+    background-color:#1f0c1f;  
+    
+}
+.container{
+    background-color:#1f0c1f;  
+    
+}
+.personal{
+    margin: 70px;
+    width:100;
+    height:300px; 
+    border-radius: 10px;
+}
+.info{
+    margin-top: 70px;
+    font-style: italic;
+    color: white;
+}
+span{
+    margin-left: 30px;
+}
+.card-body>.bt{
+    background-color:none;
+}
+.address{
+    margin-top: 10px;
+    color: rgb(80, 59, 21);
+    font-style: italic;
+}
+.ser1 ,.ser2{
+    background-color: chocolate;
+    border-radius: 5%;
+    box-shadow:0px 0px 3px 3px #c98dc9;
+    margin-left: 15%;
+    padding: 8%;
+}
+.service{
+    width:100px;
+    height:80px;
+    margin:10% 30%;
+}
+h5 ,h3{
+    font-style: italic;
+}
+.skills-section {
+    padding: 50px 0;
+    text-align: center;
+}
+.skills-section h2 {
+    color: #00e1ff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.section-title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+.skill-title {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+}
+.progress {
+    height: 10px;
+    background-color: #6b37a7;
+    margin-bottom: 20px;
+}
+.progress-bar {
+    background-color: rgb(238, 163, 24);
+}
+
+.contact{
+    margin:0% 30%;
+}
+footer{
+    background-color: #000;
+    text-align: center;
+    margin:0%;
+}
+.w3-button {
+    border: none;
+    display: inline-block;
+    margin-top:20px;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;  
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 25%;
+}
+.w3-button:hover {
+    background-color: #ccc;
+}
+.send{
+    justify-content: center;
+    align-items:center;
+}
+.footer{
+    background-color: #000;
+    color:white;
+    font-style: italic;
+    font-size: medium;
+    margin-top: 10px;
+}
+.arrow-up{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color:rgb(192, 134, 27);
+}
+.p,label{
+    color:rgb(192, 134, 27);
+}
+@keyframes fadeIn {
+    from {
+      opacity: .7;
+      transform: translateY(20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+ 
+  .base:hover {
+    opacity: .7; 
+    animation: fadeIn 2s ease-in-out forwards; 
+  }
